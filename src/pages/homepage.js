@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Loading from "../components/Loading";
 import { Link } from "react-router-dom";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillWhatsapp } from "react-icons/ai";
 import countapi from "countapi-js";
 
 const Main = styled.div`
