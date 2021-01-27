@@ -255,13 +255,13 @@ const Home = () => {
         </Div>
       </Wrap>
       <Maindiv>
-        <Cart href="https://wa.me/6283140861605">
+        <Ping href="https://wa.me/6283140861605">
           <FaShoppingCart
             style={{ position: "relative", top: "10px" }}
             size="2.5em"
           />
           IHackYours
-        </Cart>
+        </Ping>
       </Maindiv>
     </Main>
   );
