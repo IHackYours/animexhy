@@ -255,13 +255,13 @@ const Home = () => {
         </Div>
       </Wrap>
       <Maindiv>
-        <Wa href="https://wa.me/6283140861605">
+        <What href="https://wa.me/6283140861605">
           <Siwhatsapp
             style={{ position: "relative", top: "10px" }}
             size="2.5em"
           />
           IHackYours
-        </Wa>
+        </What>
       </Maindiv>
     </Main>
   );
