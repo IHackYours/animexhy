@@ -143,7 +143,7 @@ const Navbar = () => {
           }}
           alt=""
         />
-        AnimeX
+        AnimeHy
       </Logo>
       <Ul id="click">
         <Li>
@@ -153,11 +153,11 @@ const Navbar = () => {
               document.getElementById("check").checked = false;
             }}
           >
-            <RiUserHeartLine
+            <RiHomeHeartLine
               size="1.2em"
               style={{ position: "relative", top: "6px", right: "4px" }}
             />{" "}
-            Popular
+            Populer
           </A>
         </Li>
         <Li>
@@ -167,11 +167,11 @@ const Navbar = () => {
               document.getElementById("check").checked = false;
             }}
           >
-            <RiImageAddLine
+            <RiHomeGearLine
               size="1.2em"
               style={{ position: "relative", top: "6px", right: "4px" }}
             />
-            Recently Added
+            Recently Add
           </A>
         </Li>
         <Li>
@@ -181,11 +181,11 @@ const Navbar = () => {
               document.getElementById("check").checked = false;
             }}
           >
-            <TiThListOutline
+            <RiHome7Line
               size="1.2em"
               style={{ position: "relative", top: "6px", right: "4px" }}
             />{" "}
-            Anime List
+            Anime all
           </A>
         </Li>
         <Li>
