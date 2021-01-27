@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Loading from "../components/Loading";
 import { Link } from "react-router-dom";
-import { AiFillGithub } from "react-icons/ai";
+import { Siwhatsapp } from "react-icons/si";
 import countapi from "countapi-js";
 
 const Main = styled.div`
@@ -255,13 +255,13 @@ const Home = () => {
         </Div>
       </Wrap>
       <Maindiv>
-        <Git href="https://wa.me/6283140861605">
-          <AiFillGithub
+        <app href="https://wa.me/6283140861605">
+          <Siwhatsapp
             style={{ position: "relative", top: "10px" }}
             size="2.5em"
           />
           IHackYours
-        </Git>
+        </app>
       </Maindiv>
     </Main>
   );
