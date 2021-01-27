@@ -10,8 +10,7 @@ import Details from "./pages/details";
 import Watch from "./pages/watch";
 import Error from "./pages/404";
 import Home from "./pages/homepage";
-import { RiUserHeartLine, RiImageAddLine } from "react-icons/ri";
-import { TiThListOutline } from "react-icons/ti";
+import { RiHomeHeartLine, RiHomeGearLine, RiHome7Line } from "react-icons/ri";
 
 function App() {
   return (
