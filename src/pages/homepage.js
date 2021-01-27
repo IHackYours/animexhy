@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Loading from "../components/Loading";
 import { Link } from "react-router-dom";
-import { FaShoppingCart } from "react-icons/fa";
+import { Siwhatsapp } from "react-icons/si";
 import countapi from "countapi-js";
 
 const Main = styled.div`
@@ -255,13 +255,13 @@ const Home = () => {
         </Div>
       </Wrap>
       <Maindiv>
-        <Ping href="https://wa.me/6283140861605">
-          <FaShoppingCart
+        <Wa href="https://wa.me/6283140861605">
+          <Siwhatsapp
             style={{ position: "relative", top: "10px" }}
             size="2.5em"
           />
           IHackYours
-        </Ping>
+        </Wa>
       </Maindiv>
     </Main>
   );
