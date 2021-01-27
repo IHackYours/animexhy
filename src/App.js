@@ -28,7 +28,7 @@ function App() {
                 heading={{
                   ...(
                     <span>
-                      <RiUserHeartLine
+                      <RiHomeHeartLine
                         size="1.2em"
                         style={{
                           position: "relative",
@@ -36,7 +36,7 @@ function App() {
                           right: "4px",
                         }}
                       />
-                      Popular
+                      Populer
                     </span>
                   ),
                 }}
@@ -47,7 +47,7 @@ function App() {
                 heading={{
                   ...(
                     <span>
-                      <RiImageAddLine
+                      <RiHomeGearLine
                         size="1.2em"
                         style={{
                           position: "relative",
@@ -55,7 +55,7 @@ function App() {
                           right: "4px",
                         }}
                       />
-                      Recently Added
+                      Recently Add
                     </span>
                   ),
                 }}
@@ -72,7 +72,7 @@ function App() {
                 heading={{
                   ...(
                     <span>
-                      <TiThListOutline
+                      <RiHome7Line
                         size="1.2em"
                         style={{
                           position: "relative",
@@ -80,7 +80,7 @@ function App() {
                           right: "4px",
                         }}
                       />
-                      Anime List
+                      Anime all
                     </span>
                   ),
                 }}
