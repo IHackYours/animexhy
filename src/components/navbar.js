@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
 import { Link, useHistory } from "react-router-dom";
-import { RiUserHeartLine, RiImageAddLine } from "react-icons/ri";
-import { TiThListOutline } from "react-icons/ti";
+import { RiHomeHeartLine, RiHomeGearLine, RiHome7Line } from "react-icons/ri";
 import "./nav.css";
 const Nav = styled.div`
   background: ${(props) => props.theme.colors.dark};
